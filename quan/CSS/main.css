@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.container{ 
+	width: 720px;
+	height: 300px;
+	background: url(../images/model.png) no-repeat;
+	background-position: right;
+	border: 1px solid #000000;
+	margin: 0 auto;
+	animation: moronen 1s 2s linear forwards;
+
+
+}
+.xam{
+	width: 195px;
+	height: 300px;
+	background: url(../images/leftpoly.png) ;
+	position: relative;
+	animation: xam 1s 2s linear forwards;
+	opacity: 0px;
+}
+.dotron{
+	width: 150px;
+	height: 150px;
+	background: url(../images/round1.png)  no-repeat;
+	position: absolute;
+	top: 70px;
+	left: 680px;
+	animation: dotron 2s 3s ease for;
+	
+}
+
+@keyframes moronen 
+{
+	0%{ opacity: 0;
+	
+	
+	}
+	100%{ opacity: 1;}
+	
+	
+	
+}
+@keyframes xam {
+	0%{ opacity: 0;	}
+	
+	100%{opacity: 1;}
+}
+@keyframes dotron { 
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+	}
